@@ -1,0 +1,2 @@
+const mongoose = require('mongoose');
+module.exports = mongoose.connect("mongodb+srv://manthan123:manthan123@digitalvalidator.okm5p.mongodb.net/digitaValidator?retryWrites=true&w=majority").then(() => console.log("success")).catch((err) => console.log(err));
